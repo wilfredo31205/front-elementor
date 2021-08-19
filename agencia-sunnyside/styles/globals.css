@@ -480,35 +480,34 @@ color: teal;
 }
 
 .manzana-pera{
-
-  width: 92%;
   display: flex;
- flex-direction: row;
-
-
-
+  height: 145vh;
 }
-
-
 .finalSeccion{
 
-  width: 100%;
-position: relative;
-bottom: 2%;
-
-
+  
+  background-image: url("../public/image-graphic-design.jpg");
+  background-position: center center;
+  height: 145vh;
+  width: 46%;
+  background-repeat: no-repeat;
+  background-size:contain;
+  position: absolute;
+  top: 205%;
+ 
 }
 
-.segundaImagen{
-
-    width:100%;
-    position: relative;
-    left: 0%;
+.segundaImagen{ /* FOTO DE NARANJA*/
+  background-image: url("../public/image-photography.jpg");
+   height: 10vh; 
+  width: 54%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 46%;
+  top:238%;
+  padding-bottom: 40%;
   
-
-
-
-
+  
 
 }
 

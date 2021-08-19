@@ -1,4 +1,3 @@
-
 import React from 'react'
 
 import Link from 'next/link'
@@ -120,23 +119,21 @@ const Inicio = () => {
 
           </div>
 
-          <div className="manzana-pera">
+          <div className="manzana-pera"> esta es la clase padre de las imagenes  oh entonces pon el css
 
             <div className="finalSeccion">
 
-
-              <Image src={Cerezas2 } className="wilfredo"  />
-
-          
-
+{/*           
+              <Image src={Cerezas2 } className="wilfredo"  /> */}
+           
 
             </div>
-
+          
 
             <div className="segundaImagen">
 
 
-            <Image src={naranja } className="wilfredo"  />
+            {/* <Image src={naranja } className="wilfredo"  /> */}
 
             </div>
 
